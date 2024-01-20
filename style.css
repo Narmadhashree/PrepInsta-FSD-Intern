@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Caveat&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.main {
+    max-width: 800px;
+    background-color: rgb(108, 108, 108);
+    color: white;
+    margin-top: none;
+    padding-top: 0%;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images {
+    border-radius: 10em;
+    border: 4px solid;
+    border-color: rgb(255, 255, 255);
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all 2s ease-in-out;
+}
+
+.name {
+    font-family: 'Marck Script', cursive;
+    font-size: 5vw; /* Adjusted for better responsiveness */
+}
+
+.mern {
+    font-family: 'Caveat', cursive;
+    font-size: 4vw; /* Adjusted for better responsiveness */
+}
+
+main {
+    font-family: 'Salsa', cursive;
+}
+
+.love {
+    font-family: 'Caveat', cursive;
+    font-size: 3vw; /* Adjusted for better responsiveness */
+}
+
+h3 {
+    color: rgb(49, 6, 35);
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(55, 54, 54);
+    padding-bottom: 0%
+    padding-top: 0%;
+}
+
+.navbar a {
+    display: block;
+    font-size: 0.5rem;
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    margin: 1rem;
+} 
+
+.p1 {
+    padding-left: 10px;
+}
+
+.about {
+    padding-left: 10px;
+}
+
+.container {
+    background-color: rgb(82, 76, 76);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(185, 232, 171);
+    color: rgb(179, 126, 126);
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.python {
+    width: 80%;
+}
+
+.html {
+    width: 95%;
+}
+
+.css {
+    width: 70%;
+}
+
+.react {
+    width: 85%;
+}
+
+.js {
+    width: 80%;
+}
+
+.myskills {
+    padding-left: 10px;
+}
+
+.p5 {
+    color: rgb(199, 199, 17);
+}
+
+/* Add this to the end of your existing CSS */
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+    background-color: rgb(55, 54, 54);
+}
+
+/* Media query for screens smaller than 600px (adjust as needed) */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: row; /* Change to row direction */
+        padding: 10px; /* Adjust padding as needed */
+    }
+
+    .navbar a {
+        margin: 0 10px; /* Add margin between items */
+    }
+}
+
+/* Add these styles to your existing CSS */
+
+/* Mobile view styles */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    .images {
+        width: 50px; /* Adjust the width as needed */
+        height: 50px; /* Adjust the height as needed */
+    }
+
+    .name {
+        font-size: 40px; /* Adjust the font size as needed */
+    }
+
+    .mern {
+        font-size: 35px; /* Adjust the font size as needed */
+    }
+
+    .love {
+        font-size: 30px; /* Adjust the font size as needed */
+    }
+}
